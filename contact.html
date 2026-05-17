@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Windy City Tech & Print for printing, cyber cafe, and computer repair services in Chicago."
+    />
+    <title>Contact Us | Windy City Tech & Print</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Windy City Tech & Print</a>
+
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="tagline">Contact us</p>
+            <h1>Visit, Call, or Message Us Today</h1>
+            <p>
+              We welcome walk-in customers in Chicago for printing, cyber cafe
+              access, and computer repair services.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact-form" class="btn btn-primary">Send a Message</a>
+              <a href="services.html" class="btn btn-secondary"
+                >View Services</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+              alt="Customer support and communication workspace"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container contact-grid">
+          <div class="contact-box">
+            <p class="tagline">Business info</p>
+            <h2>Get in Touch</h2>
+            <p>
+              We are here to help with printing, internet access, and computer
+              repair. Walk-ins are welcome during business hours.
+            </p>
+
+            <ul class="contact-list">
+              <li><strong>Address:</strong> Chicago, Illinois, USA</li>
+              <li><strong>Phone:</strong> +1 (312) 555-0198</li>
+              <li><strong>Email:</strong> hello@windycitytechprint.com</li>
+              <li><strong>Hours:</strong> Mon–Sat, 9:00 AM – 7:00 PM</li>
+            </ul>
+
+            <div class="hero-buttons" style="margin-top: 1.5rem">
+              <a href="tel:+13125550198" class="btn btn-primary">Call Now</a>
+              <a
+                href="mailto:hello@windycitytechprint.com"
+                class="btn btn-secondary"
+                >Email Us</a
+              >
+            </div>
+          </div>
+
+          <div class="form-box" id="contact-form">
+            <p class="tagline">Send a message</p>
+            <h2>Contact Form</h2>
+
+            <form>
+              <div>
+                <label for="name">Full Name</label><br />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email Address</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="phone">Phone Number</label><br />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Your phone number"
+                />
+              </div>
+
+              <div>
+                <label for="service">Service Needed</label><br />
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option value="printing">Printing</option>
+                  <option value="cyber-cafe">Cyber Cafe</option>
+                  <option value="computer-repair">Computer Repair</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message">Message</label><br />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us what you need"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="tagline">Find us</p>
+            <h2>Walk In Anytime During Business Hours</h2>
+          </div>
+
+          <div class="trust-grid">
+            <div class="trust-item">
+              <h3>Easy to Reach</h3>
+              <p>Call, email, or visit us directly for quick help.</p>
+            </div>
+            <div class="trust-item">
+              <h3>Fast Service</h3>
+              <p>
+                We focus on quick support for common printing and computer
+                issues.
+              </p>
+            </div>
+            <div class="trust-item">
+              <h3>Local Support</h3>
+              <p>
+                Serving Chicago customers who need dependable in-person
+                assistance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Windy City Tech & Print</h3>
+          <p>Printing, cyber cafe, and computer repair services in Chicago.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Visit Us</h4>
+          <p>Chicago, Illinois</p>
+          <p>Walk-in customers welcome</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Windy City Tech & Print. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
